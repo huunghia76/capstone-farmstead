@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Volkhov', serif;
+}
+
+/* header */
+header input.search {
+    background: #fff url(../image/search.png) no-repeat 10px center;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+header input.search:focus {
+    width: 200px;
+    padding-left: 32px;
+    outline: none;
+    border: 0px solid #FFF;
+    box-shadow: unset;
+}
+
+#nav_header {
+    background-color: rgba(red, green, blue, 0) !important;
+    transition: all 0.4s ease 0s;
+    padding: 0px;
+    z-index: 9999;
+}
+
+#nav_header .nav-link, #nav_header .material-symbols-outlined  {
+    color: #fff !important;
+}
+#nav_header .nav-link:hover, #nav_header .material-symbols-outlined:hover,
+#nav_header.nav-header-fixed .nav-link:hover ,#nav_header.nav-header-fixed .material-symbols-outlined:hover 
+ {
+    color: #fb811e !important;
+}
+
+#nav_header.nav-header-fixed .nav-link ,#nav_header.nav-header-fixed .material-symbols-outlined {
+    color: #060606 !important;
+    font-weight: 600;
+}
+
+h1 i {
+    position: absolute;
+    top: -10px;
+    left: 55px;
+    font-size: 20px;
+}
+
+ .header-logo {
+    font-size: 32px;
+    color: #fb811e;
+    padding: 0px;
+    position: relative;
+    transition: all .5s;
+}
+
+ .header-logo:hover {
+    color: #060606;
+}
+
+#nav_header{
+    height: 90px;
+    padding: 14px  0px;
+}
+#nav_header.nav-header-fixed {
+    padding: 0px;
+    border-bottom: none;
+    z-index: 99 !important;
+    background-color: #fff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+    height: 75px;
+    padding: 10px 0px;
+
+}
+
+
+/* end header */
+/* footer */
+footer #back-to-top {
+    bottom: 90px;
+    right: 15px;
+}
+
+footer .subscribe input,
+footer .subscribe button {
+    padding: 12px 20px;
+    outline: none;
+    border: 0px solid #fff;
+    background-color: #f4f4f4;
+}
+
+footer .subscribe input {
+    border-top-left-radius: 50rem;
+    border-bottom-left-radius: 50rem;
+}
+footer .subscribe button {
+    padding: 0px 30px;
+    background-color: #009f4d;
+    color: #f4f4f4;
+    border-top-right-radius: 50rem;
+    border-bottom-right-radius: 50rem;
+}
+footer .subscribe button:hover {
+    background-color: #009f4ddf;
+    
+}
+footer h3{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #060606;
+}
+footer p{
+    color: #707070;
+    font-size: 17px;
+}
+footer .footer-contact a{
+    color: #707070;
+}
+footer .footer-contact a:hover{
+    color: #fb811e ;
+}
+footer .FooterSocial li a i{
+    background-color: rgb(10 191 83 / 8%);;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    display: inline-grid;
+    text-align: center;
+    align-items: center;
+    transition: all .5s;
+}
+footer .FooterSocial li a i:hover{
+    color: #fb811e !important;
+    background: rgb(255 201 69 / 19%) !important;
+    box-shadow: 0px 4px 7px 0px rgb(10 10 10 / 24%);
+}
+
+@media (max-width: 999px) {
+    #nav_header .nav-link, #nav_header .material-symbols-outlined  {
+        color: #000 !important;
+    }
+    #nav_header #navbarSupportedContent{
+        background-color: #fff;
+    }
+}
+
+@media (max-width: 599px) {
+    /* #nav_header #navbarSupportedContent{
+        background-color: #fff;
+    } */
+}
