@@ -172,10 +172,13 @@ footer .FooterSocial li a i:hover{
     #nav_header #navbarSupportedContent{
         background-color: #fff;
     }
+    .title-style{
+        font-size: 35px !important;
+    }
 }
 
 @media (max-width: 599px) {
-    /* #nav_header #navbarSupportedContent{
-        background-color: #fff;
-    } */
+    .title-style{
+        font-size: 35px;
+    }
 }

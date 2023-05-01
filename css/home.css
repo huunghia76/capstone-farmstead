@@ -141,7 +141,6 @@ h5.small-title {
 }
 
 .service a.label-style {
-    color: var(--secondary-color);
     display: inline-block;
     background: rgb(0 159 77 / 16%);
     color: #009f4d;

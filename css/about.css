@@ -1,0 +1,237 @@
+h5.small-title {
+    color: #fb811e;
+    font-size: 22px;
+}
+.title-style {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #000;
+}
+.btn-style:hover {
+    background-color: #009f4d;
+    color: #fff;
+    
+}
+
+.btn-style {
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    font-weight: 600;
+    background: #fb811e;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    transition: all .5s ease-in-out;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 17px;
+    line-height: 27px;
+    color: #707070;
+}
+/* about section 1 */
+.about-section1{
+    background-image: url(../image/nghia/about/banner_about.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* team */
+.about-team {
+    background-color: #009f4d;
+}
+
+.title-bg-center {
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    z-index: 1;
+    opacity: .14;
+    font-size: 12vw;
+    /* right: 50%; */
+    left: -15%;
+    bottom: 50%;
+    -webkit-transform: translate(50%, 50%);
+    -moz-transform: translate(50%, 50%);
+    -o-transform: translate(50%, 50%);
+    -ms-transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
+}
+
+.about-team a.label-style {
+    display: inline-block;
+    background: rgb(0 159 77 / 16%);
+    color: #009f4d;
+    padding: 5px 20px;
+    font-weight: 600;
+}
+.about-team .team-member{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.about-team .team-hover{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000006d;
+     opacity: 0;
+}
+.about-team .team-hover:hover{
+    opacity: 1;
+}
+.about-team .team-hover .team-social{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    transform: translateY(45%);
+    transition: all .3s ;
+}
+.about-team .team-member:hover .team-social{
+    transform: translateY(-50%);
+
+}
+.about-team .team-hover .team-social a{
+   font-size: 17px;
+}
+.about-team .team-member .team-desc{
+    transform: translateY(-55%);
+    transition: all .3s;
+}
+.about-team .team-member:hover .team-desc{
+    transform: translateY(0px);
+}
+/* video sec5 */
+.section-5 .video-play-icon {
+    background: #fff;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    -webkit-animation: ripple 1s linear infinite;
+    animation: ripple 1s linear infinite;
+}
+.section-5 .video-play-icon .fa-play{
+    color: #fb811e;
+}
+.section-5 .video-play-icon:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.section-5 .play-view {
+    left: 0;
+    right: 0;
+    top: calc(50% - 40px);
+}
+.new-block{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/**
+ * Simple fade transition,
+ */
+ .mfp-fade.mfp-bg {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+	opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+	opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+	opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+	opacity: 0;
+}
+#small-dialog {
+    max-width: 750px;
+    margin: 40px auto;
+    position: relative;
+}
+.mfp-close-btn-in .mfp-close{
+    color: #707070;
+}
+/* about-slide-bg */
+.about-slide-bg {
+    background-image: url("../image/nghia/bg1.jpg");
+    /* height: 500px; */
+    z-index: 1;
+}
+.about-slide-bg .fa-quote-left{
+    color: #fb811e;
+    font-size: 30px;
+}
+.about-slide-bg .carousel-indicators{
+    margin-top: 30px;
+    bottom: -90px;
+    margin-bottom: 40px;
+}
+
+.about-slide-bg::before {
+    content: "";
+    background: rgb(10 10 10 / 52%);
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.about-slide-bg .testimonial-content {
+    max-width: 900px;
+    margin: auto;
+}
+.about-slide-bg blockquote{
+    font-size: 22px;
+    line-height: 34px;
+    text-indent: 30px;
+}
+.about-slide-bg .people{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px 0 5px;
+    color: #fff;
+}
+.about-slide-bg .carousel-indicators [data-bs-target]{
+    background-color: #fff;
+    opacity: .3;
+}
+.about-slide-bg .carousel-indicators .active{
+    background-color: #fb811e;
+    opacity: 1;
+}
+.about-slide-bg .carousel-indicators [data-bs-target]:hover{
+    background-color: #fb811e;
+    opacity: 1;
+}
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    opacity: 1;
+    margin: 5px;
+}
+
+ .carousel-indicators .active {
+    background-color: #fb811e;
+}
