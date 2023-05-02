@@ -40,6 +40,12 @@
     line-height: 28px;
     margin-left: -0.5em;
 }
+body.dark-mode .ntbay-banner .banner-left h2 {
+    color: #000 !important;
+}
+body.dark-mode .ntbay-banner .bann-contents h3 {
+    color: #fff;
+}
 
 .ntbay-banner .banner-left {
     position: absolute;
@@ -97,11 +103,20 @@ p {
     background-color: #fff;
     transition: all .3s;
 }
-
 .discover .card-shadow:hover {
-    box-shadow: 0 1rem 3rem rgb(0 0 0 / 10%);
-    background-color: #fff;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 20%);
 }
+body.dark-mode .discover .card-shadow {
+    box-shadow: 0 1rem 2rem rgb(0 0 0 / 20%);
+    background-color: #222222;
+}
+body.dark-mode .discover .card-shadow:hover {
+    box-shadow: 0 1rem 2rem rgb(0 0 0 / 0%);
+}
+body.dark-mode .card-shadow h4>a{
+    color: #fff !important;
+}
+
 
 .discover .card-shadow h4>a {
     transition: all .3s;
@@ -114,15 +129,19 @@ p {
     color: #009f4d !important;
 }
 
-h5.small-title {
-    color: #fb811e;
+body h5.small-title {
+    color: #fb811e !important;
     font-size: 22px;
 }
+
 
 .service {
     background-color: #009f4d;
 }
-
+body.dark-mode .service .card-body {
+    color: #fff;
+    background-color: #222222;
+}
 .title-bg-center {
     position: absolute;
     color: #fff;
@@ -154,6 +173,7 @@ h5.small-title {
     font-size: 30px;
     color: #fb811e;
 }
+
 
 .service-block .imginfo__box {
     position: absolute;

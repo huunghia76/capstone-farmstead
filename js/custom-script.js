@@ -1,3 +1,4 @@
+// back to top
 function scrollToTop() {
     window.scrollTo({
         top: 0,
@@ -14,3 +15,9 @@ setInterval(function () {//lặp lại
         document.getElementById('nav_header').classList.add("nav-header-fixed");
     }
 }, 200)
+
+// dark mode
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}

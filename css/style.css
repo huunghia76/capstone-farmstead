@@ -26,8 +26,45 @@ h4,
 h5,
 h6 {
     font-family: 'Volkhov', serif;
+    color: #000;
+}
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+    font-family: 'Volkhov', serif;
+    color: #fff !important;
+}
+.title-style{
+    color: #000;
+}
+body.dark-mode .title-style{
+    color: #fff;
+}
+body.dark-mode .dark-mode .material-symbols-outlined:first-of-type {
+    display: block;
 }
 
+body.dark-mode .dark-mode .material-symbols-outlined:last-of-type {
+    display: none;
+}
+
+body .material-symbols-outlined:first-of-type {
+    display: none;
+}
+
+body .material-symbols-outlined:last-of-type {
+    display: block;
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+}
+body.dark-mode{
+    background-color: #222222;
+}
 /* header */
 header input.search {
     background: #fff url(../image/search.png) no-repeat 10px center;
@@ -52,18 +89,21 @@ header input.search:focus {
     z-index: 9999;
 }
 
-#nav_header .nav-link, #nav_header .material-symbols-outlined  {
+#nav_header .nav-link,
+#nav_header .material-symbols-outlined {
     color: #fff !important;
 }
-#nav_header .nav-link:hover, #nav_header .material-symbols-outlined:hover,
-#nav_header.nav-header-fixed .nav-link:hover ,#nav_header.nav-header-fixed .material-symbols-outlined:hover 
- {
+
+#nav_header .nav-link:hover,
+#nav_header .material-symbols-outlined:hover,
+#nav_header.nav-header-fixed .nav-link:hover,
+#nav_header.nav-header-fixed .material-symbols-outlined:hover {
     color: #fb811e !important;
 }
 
-#nav_header.nav-header-fixed .nav-link ,#nav_header.nav-header-fixed .material-symbols-outlined {
+#nav_header.nav-header-fixed .nav-link,
+#nav_header.nav-header-fixed .material-symbols-outlined {
     color: #060606 !important;
-    font-weight: 600;
 }
 
 h1 i {
@@ -73,7 +113,7 @@ h1 i {
     font-size: 20px;
 }
 
- .header-logo {
+.header-logo {
     font-size: 32px;
     color: #fb811e;
     padding: 0px;
@@ -81,14 +121,15 @@ h1 i {
     transition: all .5s;
 }
 
- .header-logo:hover {
+.header-logo:hover {
     color: #060606;
 }
 
-#nav_header{
+#nav_header {
     height: 90px;
-    padding: 14px  0px;
+    padding: 14px 0px;
 }
+
 #nav_header.nav-header-fixed {
     padding: 0px;
     border-bottom: none;
@@ -97,7 +138,14 @@ h1 i {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
     height: 75px;
     padding: 10px 0px;
-
+}
+body.dark-mode #nav_header.nav-header-fixed {
+    background-color: #222222;
+    color: #fff;
+}
+body.dark-mode #nav_header.nav-header-fixed .nav-link,
+body.dark-mode #nav_header.nav-header-fixed .material-symbols-outlined {
+    color: #FFF !important;
 }
 
 
@@ -120,6 +168,7 @@ footer .subscribe input {
     border-top-left-radius: 50rem;
     border-bottom-left-radius: 50rem;
 }
+
 footer .subscribe button {
     padding: 0px 30px;
     background-color: #009f4d;
@@ -127,11 +176,13 @@ footer .subscribe button {
     border-top-right-radius: 50rem;
     border-bottom-right-radius: 50rem;
 }
+
 footer .subscribe button:hover {
     background-color: #009f4ddf;
-    
+
 }
-footer h3{
+
+footer h3 {
     font-size: 20px;
     line-height: 25px;
     margin-bottom: 36px;
@@ -139,18 +190,23 @@ footer h3{
     text-transform: uppercase;
     color: #060606;
 }
-footer p{
+
+footer p {
     color: #707070;
     font-size: 17px;
 }
-footer .footer-contact a{
+
+footer .footer-contact a {
     color: #707070;
 }
-footer .footer-contact a:hover{
-    color: #fb811e ;
+
+footer .footer-contact a:hover {
+    color: #fb811e;
 }
-footer .FooterSocial li a i{
-    background-color: rgb(10 191 83 / 8%);;
+
+footer .FooterSocial li a i {
+    background-color: rgb(10 191 83 / 8%);
+    ;
     border-radius: 100%;
     width: 35px;
     height: 35px;
@@ -159,26 +215,31 @@ footer .FooterSocial li a i{
     align-items: center;
     transition: all .5s;
 }
-footer .FooterSocial li a i:hover{
+
+footer .FooterSocial li a i:hover {
     color: #fb811e !important;
     background: rgb(255 201 69 / 19%) !important;
     box-shadow: 0px 4px 7px 0px rgb(10 10 10 / 24%);
 }
 
 @media (max-width: 999px) {
-    #nav_header .nav-link, #nav_header .material-symbols-outlined  {
+
+    #nav_header .nav-link,
+    #nav_header .material-symbols-outlined {
         color: #000 !important;
     }
-    #nav_header #navbarSupportedContent{
+
+    #nav_header #navbarSupportedContent {
         background-color: #fff;
     }
-    .title-style{
+
+    .title-style {
         font-size: 35px !important;
     }
 }
 
 @media (max-width: 599px) {
-    .title-style{
+    .title-style {
         font-size: 35px;
     }
 }
