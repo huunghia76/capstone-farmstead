@@ -28,6 +28,9 @@ h6 {
     font-family: 'Volkhov', serif;
     color: #000;
 }
+.bg-success-50{
+    background-color: rgb(10 191 83 / 8%);
+}
 body.dark-mode h1,
 body.dark-mode h2,
 body.dark-mode h3,
@@ -37,10 +40,15 @@ body.dark-mode h6 {
     font-family: 'Volkhov', serif;
     color: #fff !important;
 }
-.title-style{
+
+.title-style  {
     color: #000;
 }
-body.dark-mode .title-style{
+body .fa-bars{
+    color: #222;
+}
+body.dark-mode .title-style, 
+body.dark-mode .fa-bars{
     color: #fff;
 }
 body.dark-mode .dark-mode .material-symbols-outlined:first-of-type {

@@ -193,6 +193,7 @@ body.dark-mode .service .card-body {
 .service-block .imginfo__box h6 {
     font-size: 70px;
     line-height: 80px;
+    color: #fff !important;
 }
 
 .service-block .imginfo__box p {
