@@ -261,11 +261,10 @@ figure::before {
     -ms-transform: skewX(-17deg);
     transform: skewX(-17deg);
     transition: all .5s;
-
 }
 
-.gallery_effect figure:hover:before {
-    left: 125%;
+.gallery_effect:hover figure:before {
+    left: 100%;
 }
 
 /* home-slide-bg */
