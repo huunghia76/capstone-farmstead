@@ -6,7 +6,7 @@ function scrollToTop() {
     })
 }
 setInterval(function () {//lặp lại
-    // 500 là tọa độ tính từ nút khi lăng xuống
+    // 80 là tọa độ tính từ nút khi lăng xuống
     if (window.pageYOffset < 80) {
         document.getElementById('back-to-top').style.display = "none";
         document.getElementById('nav_header').classList.remove("nav-header-fixed");

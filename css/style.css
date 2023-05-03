@@ -66,7 +66,12 @@ body .material-symbols-outlined:first-of-type {
 body .material-symbols-outlined:last-of-type {
     display: block;
 }
-
+.count-number{
+    color: #000;
+}
+body.dark-mode .count-number{
+    color: #fff;
+}
 .material-symbols-outlined {
     cursor: pointer;
 }
@@ -249,5 +254,9 @@ footer .FooterSocial li a i:hover {
 @media (max-width: 599px) {
     .title-style {
         font-size: 35px;
+    }
+    body.dark-mode #nav_header.nav-header-fixed .nav-link,
+    body.dark-mode #nav_header.nav-header-fixed .material-symbols-outlined {
+        color: #000 !important;
     }
 }
