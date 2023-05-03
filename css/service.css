@@ -48,10 +48,21 @@ section.section2 .area-box i{
 section.section2 .area-box h4 a{
     color: #000;
 }
+body.dark-mode section.section2 .area-box h4 a{
+    color: #fff;
+}
 section.section2 .area-box{
     box-shadow: 0 1rem 3rem rgb(0 0 0 / 3%);
     background-color: #fff;
     transition: all .3s;
+}
+body.dark-mode section.section2 .area-box{
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 10%);
+    background-color: #222222;
+    transition: all .3s;
+}
+body.dark-mode section.section2 .area-box:hover{
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 0%);
 }
 section.section2 .area-box:hover{
     box-shadow: 0 1rem 3rem rgb(0 0 0 / 10%);
