@@ -57,12 +57,12 @@ section.section2 .area-box{
     transition: all .3s;
 }
 body.dark-mode section.section2 .area-box{
-    box-shadow: 0 1rem 3rem rgb(0 0 0 / 10%);
+    box-shadow: 0 1rem 3rem rgb(0 0 0 );
     background-color: #222222;
     transition: all .3s;
 }
 body.dark-mode section.section2 .area-box:hover{
-    box-shadow: 0 1rem 3rem rgb(0 0 0 / 0%);
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 20%);
 }
 section.section2 .area-box:hover{
     box-shadow: 0 1rem 3rem rgb(0 0 0 / 10%);
