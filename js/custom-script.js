@@ -5,6 +5,7 @@ function scrollToTop() {
         behavior: 'smooth'
     })
 }
+
 setInterval(function () {//lặp lại
     // 80 là tọa độ tính từ nút khi lăng xuống
     if (window.pageYOffset < 80) {
