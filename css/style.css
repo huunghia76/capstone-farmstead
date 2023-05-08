@@ -146,7 +146,7 @@ h1 i {
 #nav_header.nav-header-fixed {
     padding: 0px;
     border-bottom: none;
-    z-index: 99 !important;
+    z-index: 99999 !important;
     background-color: #fff;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
     height: 75px;
