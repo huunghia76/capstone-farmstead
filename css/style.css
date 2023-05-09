@@ -78,6 +78,11 @@ body.dark-mode .count-number{
 body.dark-mode{
     background-color: #222222;
 }
+@media (min-width: 1280px){
+    .container {
+        max-width: 1200px;
+    }
+}
 /* header */
 header input.search {
     background: #fff url(../image/search.png) no-repeat 10px center;
