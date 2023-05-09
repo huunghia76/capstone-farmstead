@@ -1,0 +1,41 @@
+p{
+    margin-bottom: 0px;
+}
+.blog-content-sec1 a,.blog-content-sec1 i,.blog-content-sec1 p {
+  display: inline-block;
+  color:#707070
+}
+.blog-content-sec1 a{
+    font-weight: bold;
+}
+
+.blog-content-sec1 i{
+    margin: 0 10px;
+}
+
+.contact-section2 input:focus , .contact-section2 textarea:focus {
+    border: 1px solid orange !important;
+    outline: none !important;
+    box-shadow: unset;
+}
+
+.contact-section2 .btn-btn-style{
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px 30px;
+    font-weight: 600;
+    background-color: #ff8c00;
+    color: #fff;
+    border-radius: 30px;
+    border:none;
+}
+
+.contact-section2 .btn-btn-style:hover{
+    background-color: green;
+}
+
+.contact-section2 .input-text input{
+    padding:14px;
+}

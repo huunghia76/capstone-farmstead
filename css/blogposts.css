@@ -1,0 +1,107 @@
+
+.side-bar-sticky{
+    top: 100px;
+}
+
+.blog-section2 .RecentPosts a{
+    color:black;
+    font-weight: 600;
+    line-height: 24px;
+    position:relative;
+}
+.blog-section2 .RecentPosts a:hover{
+    color:#fb811e;
+}
+
+.blog-section2 .RecentComments a{
+    color:#fb811e;
+    font-weight: 600;
+    line-height: 24px;
+    position:relative;
+}
+.blog-section2 .RecentComments a:hover{
+    text-decoration: underline;
+}
+
+.blog-section2 .Archives a{
+    color:black;
+    font-weight: 600;
+    line-height: 24px;
+    position:relative;
+}
+.blog-section2 .Archives a:hover{
+    color:#fb811e;
+}
+
+
+.blog-section2 .Categories a{
+    color:black;
+    font-weight: 600;
+    line-height: 24px;
+    position:relative;
+}
+.blog-section2 .Categories a:hover{
+    color:#fb811e;
+}
+
+.blog-section2 .Meta a{
+    color:black;
+    font-weight: 600;
+    line-height: 24px;
+    position:relative;
+}
+.blog-section2 .Meta a:hover{
+    color:#fb811e;
+}
+
+.blog-section2 .blog-decs{
+    display:block;
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 700;
+    color:black;
+}
+
+.blog-section2 .blog-decs:hover{  
+    color:#fb811e;
+}
+
+.blog-section2 .btn-btn-style{
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    font-weight: 600;
+    background-color: #fb811e;
+    border: none;
+    color: #ffff;
+    border-radius: 30px;
+}
+
+.blog-section2 .btn-btn-style:hover{
+    background-color: green;
+}
+
+/* pagination-blog */
+.pagination-blog .active{
+    background-color: green;
+    color: #fff !important;
+}
+.pagination-blog .rounded-circle{
+    width: 45px;
+    height: 45px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: black;
+    border: unset;
+    transition: all .5s;
+}
+.pagination-blog > div:hover{
+    background-color: green;
+    color: #fff;
+}
+.pagination-blog .btn-next{
+    padding: 10px 18px;
+    border-radius: 50%;
+    font-weight: bold;
+}
