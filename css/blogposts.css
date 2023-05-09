@@ -105,3 +105,13 @@
     border-radius: 50%;
     font-weight: bold;
 }
+
+.blog-content-sec1 {
+    padding: 100px 0px 100px 150px;
+} 
+
+@media (max-width:599px) {
+    .blog-content-sec1 {
+        padding: 100px 0px 100px 50px;
+    }
+}

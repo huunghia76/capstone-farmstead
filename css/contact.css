@@ -39,3 +39,13 @@ p{
 .contact-section2 .input-text input{
     padding:14px;
 }
+
+.blog-content-sec1 {
+    padding: 100px 0px 100px 150px;
+}
+
+@media (max-width:599px) {
+    .blog-content-sec1 {
+        padding: 100px 0px 100px 50px;
+    }
+}

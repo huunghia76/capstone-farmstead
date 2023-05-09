@@ -1,0 +1,109 @@
+p{
+    margin-bottom: 0px;
+}
+.blog-content-sec1 a,.blog-content-sec1 i,.blog-content-sec1 p {
+  display: inline-block;
+  color:#707070
+}
+.blog-content-sec1 a{
+    font-weight: bold;
+}
+
+.blog-content-sec1 i{
+    margin: 0 10px;
+}
+
+.contact-section2 input:focus , .contact-section2 textarea:focus {
+    border: 1px solid orange !important;
+    outline: none !important;
+    box-shadow: unset;
+}
+
+.contact-section2 .btn-btn-style{
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px 30px;
+    font-weight: 600;
+    background-color: #ff8c00;
+    color: #fff;
+    border-radius: 30px;
+    border:none;
+}
+
+.contact-section2 .btn-btn-style:hover{
+    background-color: green;
+}
+
+.contact-section2 .input-text input{
+    padding:14px;
+}
+
+/* team */
+.about-team {
+    background-color: #009f4d;
+}
+
+.title-bg-center {
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    z-index: 1;
+    opacity: .14;
+    font-size: 12vw;
+    /* right: 50%; */
+    left: -15%;
+    bottom: 50%;
+    -webkit-transform: translate(50%, 50%);
+    -moz-transform: translate(50%, 50%);
+    -o-transform: translate(50%, 50%);
+    -ms-transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
+}
+
+.about-team a.label-style {
+    display: inline-block;
+    background: rgb(0 159 77 / 16%);
+    color: #009f4d;
+    padding: 5px 20px;
+    font-weight: 600;
+}
+.about-team .team-member{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.about-team .team-hover{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000006d;
+     opacity: 0;
+}
+.about-team .team-hover:hover{
+    opacity: 1;
+}
+.about-team .team-hover .team-social{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    transform: translateY(45%);
+    transition: all .3s ;
+}
+.about-team .team-member:hover .team-social{
+    transform: translateY(-50%);
+
+}
+.about-team .team-hover .team-social a{
+   font-size: 17px;
+}
+.about-team .team-member .team-desc{
+    transform: translateY(-55%);
+    transition: all .3s;
+}
+.about-team .team-member:hover .team-desc{
+    transform: translateY(0px);
+}
